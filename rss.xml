@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>「なついろにっき。」制作ブログ</title>
+      <link>https://tsukuba-gsk-bishoge.github.io/natsuiro-blog</link>
+      <description>「なついろにっき。」制作ブログです。</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>ノベルゲームを一から作ろう！＃１【企画編】</title>
+          <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+          <author>宇佐ぱん</author>
+          <link>https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/USP/</link>
+          <guid>https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/USP/</guid>
+          <description xml:base="https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/USP/">&lt;h3 id=&quot;goaisatu&quot;&gt;ごあいさつ&lt;&#x2F;h3&gt;
+&lt;p&gt;みなさんこんにちは。&lt;&#x2F;p&gt;
+&lt;p&gt;ノベルゲーム『なついろにっき。』制作ライン長の宇佐ぱんです。サークルの方では別の名前で呼ばれているのですが、外向けでは“宇佐ぱん“でいこうと思います。ややこしいね！
+この度ブログが開設されました。この企画は筑波大学現代視覚文化研究会美少女ゲーム制作班のノベルゲーム制作企画の一つに属するもの…、つまり筑波大にあるげんしけんというサークルのうちの班の中の企画の一つということです。ややこしいね！２（ツー）&lt;&#x2F;p&gt;
+&lt;p&gt;個人的に、ここにはノベルゲームをまったくの初学者でも問題なく制作できるノウハウやTipsなどを書けたらいいなと思っております。
+ノベルゲーム制作サークル自体が大学のサークルの中でも珍しいですし、一からゲームを作るなんて難しそう！こわそう！という印象が第一に来ると思います。美少女ゲーム制作班自体できてからまだ年月の浅い団体なので、後輩やげんしけん関係の方が不安なくゲーム制作をするためにも、私個人が制作過程を整理するのにも、このブログが使えたらとてもいいね！という試みというわけですね。がんばるぞ～&lt;&#x2F;p&gt;
+&lt;p&gt;ということで、これから私以外にも様々な人が記事を書いてくれるといいなーということを願ってまず1本記事を書かせていただくことになりました。どうせなので、「ノベルゲームを一から作ろう！」と題してノベルゲーム制作日記を連載してみようと思います。&lt;&#x2F;p&gt;
+&lt;p&gt;※発信内容があくまで私個人の見解になってしまうので、全てを鵜呑みにするのはやめましょう&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;korekaranolian-zai-yu-ding&quot;&gt;これからの連載予定&lt;&#x2F;h3&gt;
+&lt;p&gt;ノベルゲームの制作過程を何本かにわたって連載していきます。ノベルゲームの制作過程を【企画編】、【素材集め編（シナリオ、原画、音響etc…）】、【スクリプト編】、【頒布編】にカテゴリ分けして記事を書く予定です。素材集め編はシナリオ、原画とか役職ごとに記事が分けられたらいいね。&lt;&#x2F;p&gt;
+&lt;p&gt;今回は早速【企画編】です！うおおおおおおおおおおおおお&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;noberugemunoqi-hua-tute&quot;&gt;ノベルゲームの企画って？&lt;&#x2F;h3&gt;
+&lt;p&gt;企画というのは簡単に言うと「ぼくのかんがえたさいきょうのゲーム」をみんなに発表したり人を募ったりすることです。
+2025年現在、美少女ゲーム制作班内では企画が年2回の企画発表会を軸に立てられる仕組みになっています。&lt;&#x2F;p&gt;
+&lt;p&gt;企画発表会で班員のみんなの前で自分の企画の発表をすることで人員を募ることができるのです。&lt;&#x2F;p&gt;
+&lt;p&gt;私の場合企画書を書いたり、
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;kikakusyo.a43e6e0daa5f28ff.webp&quot; width=&quot;100%&quot; alt=&quot;企画書&quot; &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p class=&quot;caption&quot;&gt;企画書&lt;&#x2F;p&gt;
+
+&lt;&#x2F;p&gt;
+&lt;p&gt;プレゼン用にパワポを作ったりしました。
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;pawapo.f968d49021970fa9.webp&quot; width=&quot;100%&quot; alt=&quot;パワーポイント&quot; &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p class=&quot;caption&quot;&gt;パワーポイント&lt;&#x2F;p&gt;
+
+&lt;&#x2F;p&gt;
+&lt;p&gt;※画像は製作途中のものです。完成時とは異なる場合があります。&lt;&#x2F;p&gt;
+&lt;p&gt;企画書を書くうえでは、作品のテーマやジャンル、文字数やレーティングなどの作品概要や世界観やキャラ設定、募りたい人員などの記載をしました。欲しい人員や作品を出したい時期などははっきり書いておくと後で誤解やトラブルが起きるのを防げる気がします。&lt;&#x2F;p&gt;
+&lt;p&gt;パワーポイントはとにかく見てもらう人に「おもしろい！」と思ってもらえることを重視。デザインをかわいくしたり、アピールポイントを強調したりなどしました。ゆるく作るのも見る人に気負わせないし、カッチリ作るのもちゃんとしてる企画だなと思われるので、そこは一長一短かなと思います。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qi-hua-fa-biao-hui-hou-noliu-re&quot;&gt;企画発表会後の流れ&lt;&#x2F;h3&gt;
+&lt;p&gt;私のラインには私を抜いて計5人の方が入ってくれることになりました！わーい！！！！！今後変動あるかもですが、ゲームを作ることが現実的な人員を集めることができてとてもハッピーです。ラインのみなさんには感謝してもしきれない。ゲーム制作も一層頑張らなきゃ！という気持ちになりました。&lt;&#x2F;p&gt;
+&lt;p&gt;企画発表会終了後にはラインとしてのMTを実施しました。&lt;&#x2F;p&gt;
+&lt;p&gt;第１回では顔合わせやラインの説明、第2回は実際の仕事の割り振りや企画会議を行いました。&lt;&#x2F;p&gt;
+&lt;p&gt;仕事を割り振る上で、Googleフォームを活用したり、
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;formGoogle.a4ed7bfd6e611901.webp&quot; width=&quot;100%&quot; alt=&quot;Googleフォーム&quot; &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p class=&quot;caption&quot;&gt;Googleフォーム&lt;&#x2F;p&gt;
+
+&lt;&#x2F;p&gt;
+&lt;p&gt;エクセルでガントチャートを作ったりなどしました。
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;ganchart.69d626cf464c805c.webp&quot; width=&quot;100%&quot; alt=&quot;ガントチャート&quot; &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p class=&quot;caption&quot;&gt;ガントチャート&lt;&#x2F;p&gt;
+
+&lt;&#x2F;p&gt;
+&lt;p&gt;この仕事の振り方は班内でもおそらく初めてで、手探りながらもやってみました。形式的にはかっちりしてますが、これがちゃんと役立つかどうかは企画が終わってみないとわからないので、終わってからの感想も書きたいですね。&lt;&#x2F;p&gt;
+&lt;p&gt;企画会議ではラインメンバーのみんなからヒロインのキャラデザの意見を募ったり、仕事の割り振り方や、スクリプトこれ実装できるの～？みたいなことを相談しました。
+スクリプトに関しては私の大ワガママでかなり無茶を言ったつもりだったのですが、大体の要望は叶えられるとのこと！スクリプトメンバーの方に大大大感謝です。
+イラストやロゴ、BGMに関しても様々な仕事を引き受けてもらえることが決まり、本当にありがたい限りです。自分以外が描いた創作キャラクターとか作品のロゴとかBGMって…最高！！！！！！！！！！&lt;&#x2F;p&gt;
+&lt;p&gt;そんなわけで、連載企画「ノベルゲームを一から作ろう！＃１【企画編】」はこの辺で終了にします。次は素材集め編です！制作もブログもがんばるぞ～&lt;&#x2F;p&gt;
+&lt;p&gt;読んでくださったみなさん、ありがとうございました。&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>「なついろにっき。」制作ブログ 爆誕</title>
+          <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+          <author>Myxogastria0808</author>
+          <link>https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/sample/</link>
+          <guid>https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/sample/</guid>
+          <description xml:base="https://tsukuba-gsk-bishoge.github.io/natsuiro-blog/sample/">&lt;p&gt;「なついろにっき。」制作ブログをzolaで爆速で作成しました、Myxogastria0808です。
+&lt;code&gt;Shortcodes&lt;&#x2F;code&gt;も複数用意したので、表現が豊かな数々のブログがこれから作成されることでしょう。
+利用できる記法を様々載せています。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;h1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;h2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;h3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;h4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;h5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6&quot;&gt;h6&lt;&#x2F;h6&gt;
+&lt;p&gt;アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。「絵や会話のない本なんて、なんの役にもたたないじゃないの」とアリスは思いました。そこでアリスは、頭のなかで、ひなぎくのくさりをつくったら楽しいだろうけれど、起きあがってひなぎくをつむのもめんどくさいし、どうしようかと考えていました（といっても、昼間で暑いし、とってもねむくて頭もまわらなかったので、これもたいへんだったのですが）。そこへいきなり、ピンクの目をした白うさぎが近くを走ってきたのです。&lt;&#x2F;p&gt;
+&lt;p&gt;それだけなら、そんなにめずらしいことでもありませんでした。さらにアリスとしては、そのうさぎが「どうしよう！　どうしよう！　ちこくしちゃうぞ！」とつぶやくのを聞いたときも、それがそんなにへんてこだとは思いませんでした（あとから考えてみたら、これも不思議に思うべきだったのですけれど、でもこのときには、それがごく自然なことに思えたのです）。でもそのうさぎがほんとうに、チョッキのポケットから懐中時計（かいちゅうどけい）をとりだしてそれをながめ、そしてまたあわててかけだしたとき、アリスもとびあがりました。というのも、チョッキのポケットなんかがあるうさぎはこれまで見たことがないし、そこからとりだす時計をもって&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;note&quot;&gt;note&lt;&#x2F;h1&gt;
+&lt;div class=&quot;note alert-type&quot;&gt;
+  &lt;p class=&quot;alert-type-label&quot;&gt;NOTE&lt;&#x2F;p&gt;
+  これは note です。
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;tip alert-type&quot;&gt;
+  &lt;p class=&quot;alert-type-label&quot;&gt;TIP&lt;&#x2F;p&gt;
+  これは tip です。
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;important alert-type&quot;&gt;
+  &lt;p class=&quot;alert-type-label&quot;&gt;IMPORTANT&lt;&#x2F;p&gt;
+  これは important です。
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;warning alert-type&quot;&gt;
+  &lt;p class=&quot;alert-type-label&quot;&gt;WARNING&lt;&#x2F;p&gt;
+  これは warning です。
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;caution alert-type&quot;&gt;
+  &lt;p class=&quot;alert-type-label&quot;&gt;CAUTION&lt;&#x2F;p&gt;
+  これは caution です。
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;tips&quot;&gt;Tips&lt;&#x2F;h1&gt;
+&lt;p&gt;Link&lt;&#x2F;p&gt;
+&lt;p&gt;筑波大学: &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.tsukuba.ac.jp&#x2F;&quot;&gt;筑波大学 HP&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Nomal&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bullet List
+&lt;ul&gt;
+&lt;li&gt;Bullet List
+&lt;ul&gt;
+&lt;li&gt;Bullet List&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Bullet List&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Numbered List
+&lt;ol&gt;
+&lt;li&gt;Numbered List
+&lt;ol&gt;
+&lt;li&gt;Numbered List&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Numbered List&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+checkbox&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+checkbox&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquote&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Horizontal&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;katex&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\frac{dy}{dx} + p(x) y^2 + q(x) y + r(x) = 0
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;emoji&lt;&#x2F;p&gt;
+&lt;p&gt;😄&lt;&#x2F;p&gt;
+&lt;p&gt;code block&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rs&quot; style=&quot;background-color:#fcf0ca;color:#282828aa;&quot; class=&quot;language-rs &quot;&gt;&lt;code class=&quot;language-rs&quot; data-lang=&quot;rs&quot;&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b57614;&quot;&gt;println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#79740e;&quot;&gt;&amp;quot;Hello, world!&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;colocation&lt;&#x2F;p&gt;
+&lt;p&gt;program file sample: &lt;a href=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;sample&#x2F;sample.rs&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;mermaid&quot;&gt;mermaid&lt;&#x2F;h1&gt;
+&lt;pre class=&quot;mermaid&quot;&gt;
+  flowchart LR
+rdb[&amp;quot;PostgreSQL (RDB)&amp;quot;] &amp;lt;--&amp;gt; server[&amp;quot;server (main)&amp;quot;]
+graphdb[&amp;quot;Neo4j (GraphDB)&amp;quot;] &amp;lt;--&amp;gt; server[&amp;quot;server (main)&amp;quot;]
+meilisearch[&amp;quot;Meilisearch (検索エンジン)&amp;quot;] &amp;lt;--&amp;gt; server[&amp;quot;server (main)&amp;quot;]
+cloudflare[&amp;quot;Cloudflare R2 (画像保存)&amp;quot;] &amp;lt;--&amp;gt; image-server[&amp;quot;image-server (画像専用)&amp;quot;]
+server[&amp;quot;server (main)&amp;quot;] &amp;lt;--&amp;gt; client[&amp;quot;client&amp;quot;]
+image-server[&amp;quot;image-server (画像専用)&amp;quot;] &amp;lt;--&amp;gt; client[&amp;quot;client&amp;quot;]
+&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;image&quot;&gt;image&lt;&#x2F;h1&gt;
+&lt;p&gt;image with caption&lt;&#x2F;p&gt;
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img
+    src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;image.1d2d4b453af02822.webp&quot;
+    style=&quot;max-width: 100%; max-height: 100svh&quot;
+    alt=&quot;captionの例&quot;
+  &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p class=&quot;caption&quot;&gt;captionの例&lt;&#x2F;p&gt;
+
+&lt;p&gt;custom image&lt;&#x2F;p&gt;
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img
+    src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;image.cd3640e2c0aa0694.webp&quot;
+    style=&quot;max-width: 100%; max-height: 100svh&quot;
+    alt=&quot;「なついろにっき。」制作ブログ内画像&quot;
+  &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p&gt;image (for vertical image)&lt;&#x2F;p&gt;
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img
+    src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;image.cb7e5396e431ddd4.webp&quot;
+    style=&quot;max-width: 100%; max-height: 100svh&quot;
+    alt=&quot;「なついろにっき。」制作ブログ内画像&quot;
+  &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p&gt;image (for horizontal image: pattern1)&lt;&#x2F;p&gt;
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img
+    src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;image.92b45d2600edce70.webp&quot;
+    width=&quot;100%&quot;
+    alt=&quot;「なついろにっき。」制作ブログ内画像&quot;
+  &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+&lt;p&gt;image (for horizontal image: pattern2)&lt;&#x2F;p&gt;
+    
+&lt;div class=&quot;img-box&quot;&gt;
+   
+  &lt;img
+    src=&quot;https:&#x2F;&#x2F;tsukuba-gsk-bishoge.github.io&#x2F;natsuiro-blog&#x2F;processed_images&#x2F;image.3ebedc714b84a79a.webp&quot;
+    style=&quot;max-width: 100%; max-height: 100svh&quot;
+    alt=&quot;「なついろにっき。」制作ブログ内画像&quot;
+  &#x2F;&gt;
+  
+&lt;&#x2F;div&gt;
+  
+</description>
+      </item>
+    </channel>
+</rss>
